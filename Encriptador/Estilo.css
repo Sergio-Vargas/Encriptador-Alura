@@ -204,7 +204,7 @@
 
 /* Diseño repsonsive, para ver en celulares*/
 
-@media screen and(max-width:780px) {
+@media screen and(max-width:460px) {
     .container {
         display: flex;
         flex-direction: row;
@@ -244,7 +244,7 @@
     }
     .encriptado {
         width: 80%;
-        height: 15%;
+        height: 100%;
         left: 10%;
         top: 80%;
     }
