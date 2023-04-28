@@ -204,7 +204,63 @@
 
 /* Diseño repsonsive, para ver en celulares*/
 
-@media screen and(max-width:700px) {
+@media screen and(max-width:780px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .encriptado {
+        width: 100%;
+    }
+    .texto {
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+    .indicacion {
+        width: 80%;
+        left: 10%;
+        top: 67%;
+    }
+    .indicacion p {
+        font-size: 16px;
+    }
+    .botones {
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+    .btn-encriptar,
+    .btn-both {
+        width: 48%;
+        border-radius: 16px;
+    }
+    .btn-encriptar:hover,
+    .btn-both:hover {
+        margin: 0.3%;
+        width: 47.5%;
+        padding: 1.8%;
+    }
+    .encriptado {
+        width: 80%;
+        height: 100%;
+        left: 10%;
+        top: 80%;
+    }
+    .mensaje-encriptado {
+        width: 100%;
+        height: auto;
+        top: 5%;
+    }
+    .encriptado img {
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media screen and(max-width:430px) {
     .container {
         display: flex;
         flex-direction: row;
