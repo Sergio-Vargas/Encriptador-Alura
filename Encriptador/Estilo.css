@@ -204,7 +204,7 @@
 
 /* Diseño repsonsive, para ver en celulares*/
 
-@media screen and(max-width:460px) {
+@media screen and(max-width:760px) {
     .container {
         display: flex;
         flex-direction: row;
